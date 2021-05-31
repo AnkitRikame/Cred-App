@@ -36,7 +36,7 @@ const MyForm = () => {
 			state.accountNo.length === 0 ||
 			state.accountNo.length > 16 ||
 			state.accountNo.length < 16
-				? "Please Enter Proper 16 Digit*"
+				? "Please Enter Proper 16 Digit *"
 				: "";
 
 		//holderName validation
@@ -51,8 +51,11 @@ const MyForm = () => {
 				: "";
 
 		//CVV Validation
-		temp.cvvNo = state.cvvNo.length >= 3 ? "" : "Please Enter valid CVV *";
-		console.log(temp);
+		temp.cvvNo =
+			state.cvvNo.length > 3 || state.cvvNo.length < 3
+				? "Please Enter valid CVV Must be 3 digit *"
+				: "";
+		// console.log(temp);
 		//set the error
 		setErrors({ ...temp });
 		return Object.values(temp).every((x) => x === "");
@@ -126,7 +129,7 @@ const MyForm = () => {
 						<br />
 						{/* expiryDate */}
 						<Input
-							type="text"
+							type="number"
 							name="expiryDate"
 							placeholder="MM / YY"
 							value={state.expiryDate}
