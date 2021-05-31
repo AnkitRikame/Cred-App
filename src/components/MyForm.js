@@ -107,7 +107,7 @@ const MyForm = () => {
 						<Input
 							type="number"
 							name="accountNo"
-							placeholder="Account Number"
+							placeholder="Card Number"
 							value={state.accountNo}
 							onChange={handleChange}
 							onFocus={(e) => setFocus(e.target.name)}
@@ -119,7 +119,7 @@ const MyForm = () => {
 						<Input
 							type="text"
 							name="holderName"
-							placeholder="Account Holder Name"
+							placeholder="Card Holder Name"
 							value={state.holderName}
 							onChange={handleChange}
 							onFocus={(e) => setFocus(e.target.name)}
@@ -143,7 +143,7 @@ const MyForm = () => {
 						<Input
 							type="number"
 							name="cvvNo"
-							placeholder="CVV Number"
+							placeholder="CVV Code"
 							value={state.cvvNo}
 							onChange={handleChange}
 							onFocus={(e) => setFocus(e.target.name)}
