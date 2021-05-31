@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Cred-App/static/css/main.dc453909.chunk.css",
+    "main.js": "/Cred-App/static/js/main.0860b8cd.chunk.js",
+    "main.js.map": "/Cred-App/static/js/main.0860b8cd.chunk.js.map",
+    "runtime-main.js": "/Cred-App/static/js/runtime-main.24f21ba7.js",
+    "runtime-main.js.map": "/Cred-App/static/js/runtime-main.24f21ba7.js.map",
+    "static/css/2.bf1fef22.chunk.css": "/Cred-App/static/css/2.bf1fef22.chunk.css",
+    "static/js/2.71938cdd.chunk.js": "/Cred-App/static/js/2.71938cdd.chunk.js",
+    "static/js/2.71938cdd.chunk.js.map": "/Cred-App/static/js/2.71938cdd.chunk.js.map",
+    "index.html": "/Cred-App/index.html",
+    "static/css/2.bf1fef22.chunk.css.map": "/Cred-App/static/css/2.bf1fef22.chunk.css.map",
+    "static/css/main.dc453909.chunk.css.map": "/Cred-App/static/css/main.dc453909.chunk.css.map",
+    "static/js/2.71938cdd.chunk.js.LICENSE.txt": "/Cred-App/static/js/2.71938cdd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24f21ba7.js",
+    "static/css/2.bf1fef22.chunk.css",
+    "static/js/2.71938cdd.chunk.js",
+    "static/css/main.dc453909.chunk.css",
+    "static/js/main.0860b8cd.chunk.js"
+  ]
+}
