@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Cred-App/static/css/main.dc453909.chunk.css",
-    "main.js": "/Cred-App/static/js/main.0860b8cd.chunk.js",
-    "main.js.map": "/Cred-App/static/js/main.0860b8cd.chunk.js.map",
+    "main.js": "/Cred-App/static/js/main.ffd09be7.chunk.js",
+    "main.js.map": "/Cred-App/static/js/main.ffd09be7.chunk.js.map",
     "runtime-main.js": "/Cred-App/static/js/runtime-main.24f21ba7.js",
     "runtime-main.js.map": "/Cred-App/static/js/runtime-main.24f21ba7.js.map",
     "static/css/2.bf1fef22.chunk.css": "/Cred-App/static/css/2.bf1fef22.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.bf1fef22.chunk.css",
     "static/js/2.71938cdd.chunk.js",
     "static/css/main.dc453909.chunk.css",
-    "static/js/main.0860b8cd.chunk.js"
+    "static/js/main.ffd09be7.chunk.js"
   ]
 }
