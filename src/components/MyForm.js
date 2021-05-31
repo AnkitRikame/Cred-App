@@ -157,7 +157,7 @@ const MyForm = () => {
 						</button>
 					</form>
 				</div>
-				{/* Show the Inserted data */}
+				{/* Show the Inserted data here */}
 				<div>
 					{Object.keys(allEnt).length !== 0 && (
 						<div className="showDetails mt-4">
