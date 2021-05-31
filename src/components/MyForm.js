@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Input from "./Input";
 import Axios from "axios";
-import Cards from "react-credit-cards";
+// import Cards from "react-credit-cards";
 import "../App.css";
 import "react-credit-cards/es/styles-compiled.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -55,8 +55,6 @@ const MyForm = () => {
 		console.log(temp);
 		//set the error
 		setErrors({ ...temp });
-
-		//check if object temp contains any error then return false otherwise true
 		return Object.values(temp).every((x) => x === "");
 	};
 
@@ -67,29 +65,7 @@ const MyForm = () => {
 			setAllEnt({ ...state });
 			alert("You Want to Submit your Information!!");
 			setState(initialValue);
-
-			// setState("");
-			// alert(JSON.stringify(state.holderName));
-			// console.log(state);
-			//   console.log(state);
-			//   setState(initialValue);
-			//   setErrors({});
 		}
-		// else {
-		// 	alert("Please fill data properly ⚠️");
-		// }
-
-		// const newData = {
-		// 	accountNo: state.accountNo,
-		// 	holderName: state.holderName,
-		// 	expiryDate: state.expiryDate,
-		// 	cvvNo: state.cvvNo,
-		// 	focus: state.focus,
-		// };
-
-		// setAllEnt([...allEnt, newData]);
-		// setData(newData);
-		// console.log(newData);
 	};
 
 	const sendData = () => {

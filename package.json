@@ -1,5 +1,6 @@
 {
 	"name": "validate",
+	"homepage": "https://AnkitRikame.github.io/Cred-App",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -8,6 +9,7 @@
 		"@testing-library/user-event": "^12.1.10",
 		"axios": "^0.21.1",
 		"bootstrap": "^5.0.1",
+		"gh-pages": "^3.2.0",
 		"react": "^17.0.2",
 		"react-bootstrap": "^1.6.0",
 		"react-credit-cards": "^0.8.3",
@@ -17,6 +19,8 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
